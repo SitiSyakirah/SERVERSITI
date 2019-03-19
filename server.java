@@ -4,9 +4,9 @@ import java.io.*;
 public class SimpleServer extends Thread
 {
    private ServerSocket serverSocket;
-   String clientmsg = ;
+   String clientmsg = "";
 
-   public SimpleServer(int port) throws IOException
+   public "SimpleServer"(int port) throws IOException
    {
       serverSocket = new ServerSocket(port);
       serverSocket.setSoTimeout(10000);
