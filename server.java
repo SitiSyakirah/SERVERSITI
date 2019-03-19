@@ -7,6 +7,7 @@ public class Server
     private Socket          socket   = null; 
     private ServerSocket    server   = null; 
     private DataInputStream in       =  null; 
+  
     // constructor with port 
     public Server(int port) 
     { 
@@ -16,10 +17,10 @@ public class Server
             server = new ServerSocket(port); 
             System.out.println("Server is starting NOW so please wait for a moment...."); 
   
-            System.out.println("Waiting for the client to connect..SABAR SIKIT SIR!^^"); 
+            System.out.println("Waiting for the client to connect..SABAJAP KAY!^^"); 
   
             socket = server.accept(); 
-            System.out.println("Client has received your message!Alhamdulillah!!"); 
+            System.out.println("Client has received your message!Yayyhuu!!"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
@@ -41,7 +42,7 @@ public class Server
                     System.out.println(i); 
                 } 
             } 
-            System.out.println("Connection is CLOSING...Annyeonghaseyooo!!"); 
+            System.out.println("Connection is CLOSING...Annyeoonghaseyoo!!"); 
   
             // close connection 
             socket.close(); 
@@ -58,4 +59,3 @@ public class Server
         Server server = new Server(1013); 
     } 
 } 
-
