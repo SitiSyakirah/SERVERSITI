@@ -4,7 +4,7 @@ import java.io.*;
 public class SimpleServer extends Thread
 {
    private ServerSocket serverSocket;
-   String clientmsg = "";
+   String clientmsg = ";
 
    public SimpleServer(int port) throws IOException
    {
