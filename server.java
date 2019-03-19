@@ -7,8 +7,7 @@ public class Server
     private Socket          socket   = null; 
     private ServerSocket    server   = null; 
     private DataInputStream in       = null;
-  
-    // constructor with port 
+  // constructor with port 
     public Server(int port) 
     { 
         // starts server and waits for a connection 
