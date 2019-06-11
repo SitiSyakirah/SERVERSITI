@@ -5,7 +5,7 @@ class Server
   public static void main(String[] args) throws Exception
   {
       ServerSocket sersock = new ServerSocket(5678);
-      System.out.println("Welcome to AINA'S profile! ");
+      System.out.println("Welcome to SITI'S profile! ");
       Socket sock = sersock.accept( );                          
                              
       BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
